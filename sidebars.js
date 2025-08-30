@@ -2,41 +2,59 @@
  * Creating a sidebar enables you to:
  - create an ordered group of docs
  - render a sidebar for each doc of that group
- - provide next/previous navigation
+ - share a sidebar for the entire doc set
+ - customize the sidebar look and feel
 
- The sidebars can be generated from the filesystem, or explicitly defined here.
+ You can change the order of the sidebar by editing the order of the items.
+*/
 
- Create as many sidebars as you want.
+// @ts-check
 
- @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
- */
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
+  // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
     {
       type: 'category',
       label: 'Getting Started',
       link: {
-        type: 'generated-index',
+        type: 'doc',
+        id: 'introduction',
       },
-      collapsed: false,
-      items: ['introduction', 'getting-started'],
+      items: [
+        'introduction',
+        'getting-started',
+      ],
     },
-    {
-      type: 'category',
-      label: 'Concepts',
-      items: ['concepts/refractions', 'concepts/lenses', 'concepts/optics'],
-    },
-    {
-      type: 'category',
-      label: 'API',
-      items: ['api/createComponent', 'api/useRefraction', 'api/useEffect'],
-    },
-    {
-      type: 'category',
-      label: 'Tutorials',
-      items: ['tutorials/counter-app', 'tutorials/global-theme'],
-    },
-    'contributing',
+    // The following entries are commented out because the files do not yet exist.
+    // Uncomment these as you create the corresponding markdown files.
+    // {
+    //   type: 'category',
+    //   label: 'Concepts',
+    //   items: [
+    //     'concepts/refractions',
+    //     'concepts/lenses',
+    //     'concepts/optics',
+    //   ],
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'API',
+    //   items: [
+    //     'api/createComponent',
+    //     'api/useRefraction',
+    //     'api/useEffect',
+    //   ],
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'Tutorials',
+    //   items: [
+    //     'tutorials/counter-app',
+    //     'tutorials/global-theme',
+    //   ],
+    // },
+    // 'contributing',
   ],
 };
 
