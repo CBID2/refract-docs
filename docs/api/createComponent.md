@@ -1,3 +1,6 @@
+---
+id: createComponent
+---
 # createComponent
 
 This is a placeholder for the **createComponent API** documentation.

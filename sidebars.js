@@ -28,24 +28,24 @@ const sidebars = {
     },
     // The following entries are commented out because the files do not yet exist.
     // Uncomment these as you create the corresponding markdown files.
-    // {
-    //   type: 'category',
-    //   label: 'Concepts',
-    //   items: [
-    //     'concepts/refractions',
-    //     'concepts/lenses',
-    //     'concepts/optics',
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   label: 'API',
-    //   items: [
-    //     'api/createComponent',
-    //     'api/useRefraction',
-    //     'api/useEffect',
-    //   ],
-    // },
+    {
+      type: 'category',
+       label: 'Concepts',
+     items: [
+       'concepts/refractions',
+         'concepts/lenses',
+        'concepts/optics',
+    ],
+    },
+     {
+     type: 'category',
+       label: 'API',
+       items: [
+       'api/createComponent',
+      'api/useRefraction',
+       'api/useEffect',
+    ],
+    },
     // {
     //   type: 'category',
     //   label: 'Tutorials',

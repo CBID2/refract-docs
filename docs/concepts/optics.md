@@ -1,3 +1,6 @@
+---
+id: optics
+---
 # Optics
 
 This is a placeholder for the **Optics** concept.
