@@ -9,7 +9,7 @@ export default function Home() {
       <main style={{padding: '4rem 2rem', textAlign: 'center'}}>
         <h1 style={{fontSize: '3rem', marginBottom: '1rem'}}>Refract</h1>
         <p style={{fontSize: '1.25rem', color: '#555'}}>
-          Stream your ideas into UI
+         An elegant, responsive, and powerful UI framework for building modern web applications.
         </p>
 
         <div style={{marginTop: '2rem'}}>

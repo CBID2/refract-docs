@@ -9,7 +9,7 @@ This guide will walk you through setting up your first Refract project and creat
 
 :::note
 
-Before you get started, make sure you have the latest version of Node and npm
+Before you get started, make sure you have the latest version of [Node and npm](https://nodejs.org/en)
 
 :::
 

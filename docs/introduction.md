@@ -42,4 +42,4 @@ Refract can be applied to a wide range of projects such as building:
 
 ## What's Next?
 
-Ready to get started? Head over to the Getting Started guide to install Refract and build your first component.
+Ready to get started? Head over to the [Getting Started guide](/docs/getting-started.md) to install Refract and build your first component.
