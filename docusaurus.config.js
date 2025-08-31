@@ -56,7 +56,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -67,32 +66,29 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/refract-logo.png',
         },
-        themes: ['@docusaurus/theme-search-algolia'],
-        algolia: {
-      // The application ID provided by Algolia
-      appId: ' QAKQC6L05F',
-
-      // Public API key: it is safe to commit it
-      apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
-
-      indexName: 'Documentation Website',
-        },
         items: [
-  {
-    type: 'docSidebar',
-    sidebarId: 'tutorialSidebar',
-    position: 'left',
-    label: 'Docs', // ← simpler label than "Introduction"
-  },
-  {to: '/blog', label: 'Blog', position: 'left'},
-  {
-    href: 'https://github.com/CBID2/refract-docs', // ← update to your repo
-    label: 'GitHub',
-    position: 'right',
-  },
-],
-
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs', // ← simpler label than "Introduction"
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/CBID2/refract-docs', // ← update to your repo
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
+
+      // 👇 Algolia search config goes here (NOT inside navbar)
+      algolia: {
+        appId: 'QAKQC6L05F',
+        apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
+        indexName: 'documentation_website', // must match your Algolia dashboard
+      },
+
       footer: {
         style: 'dark',
         links: [
@@ -108,16 +104,16 @@ const config = {
           {
             title: 'Community',
             items: [
-              {label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus'},
-              {label: 'Discord', href: 'https://discordapp.com/invite/docusaurus'},
-              {label: 'X', href: 'https://x.com/docusaurus'},
+              { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },
+              { label: 'Discord', href: 'https://discordapp.com/invite/docusaurus' },
+              { label: 'X', href: 'https://x.com/docusaurus' },
             ],
           },
           {
             title: 'More',
             items: [
-              {label: 'Blog', to: '/blog'},
-              {label: 'GitHub', href: 'https://github.com/facebook/docusaurus'},
+              { label: 'Blog', to: '/blog' },
+              { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
             ],
           },
         ],
