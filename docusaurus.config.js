@@ -68,21 +68,30 @@ const config = {
           src: 'img/refract-logo.png',
         },
         items: [
-  {
-    type: 'docSidebar',
-    sidebarId: 'tutorialSidebar',
-    position: 'left',
-    label: 'Docs', // ← simpler label than "Introduction"
-  },
-  {to: '/blog', label: 'Blog', position: 'left'},
-  {
-    href: 'https://github.com/CBID2/refract-docs', // ← update to your repo
-    label: 'GitHub',
-    position: 'right',
-  },
-],
-
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs', // ← simpler label than "Introduction"
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/CBID2/refract-docs', // ← update to your repo
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
+
+      // 👇 Algolia search config goes here (NOT inside navbar)
+      algolia: {
+        appId: 'QAKQC6L05F',
+        apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
+        indexName: 'Documentation Website', // must match your Algolia dashboard
+         // Optional: see the official docs for more options
+        contextualSearch: true,
+      },
+
       footer: {
         style: 'dark',
         links: [
@@ -98,16 +107,16 @@ const config = {
           {
             title: 'Community',
             items: [
-              {label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus'},
-              {label: 'Discord', href: 'https://discordapp.com/invite/docusaurus'},
-              {label: 'X', href: 'https://x.com/docusaurus'},
+              { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },
+              { label: 'Discord', href: 'https://discordapp.com/invite/docusaurus' },
+              { label: 'X', href: 'https://x.com/docusaurus' },
             ],
           },
           {
             title: 'More',
             items: [
-              {label: 'Blog', to: '/blog'},
-              {label: 'GitHub', href: 'https://github.com/facebook/docusaurus'},
+              { label: 'Blog', to: '/blog' },
+              { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
             ],
           },
         ],
