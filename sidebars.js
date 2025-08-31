@@ -52,9 +52,9 @@ const sidebars = {
       label: 'Tutorials',
       items: [
         'tutorials/counter-app',
-    //     'tutorials/global-theme',
-    //   ],
-    // },
+        'tutorials/global-theme',
+      ],
+     },
     // 'contributing',
   ],
 };
