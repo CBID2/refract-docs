@@ -25,6 +25,7 @@ const ThemeToggle = createComponent(() => {
     </button>
   );
 });
+```
 
 ## Step 2: Apply the theme globally
 
