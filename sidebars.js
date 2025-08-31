@@ -35,6 +35,7 @@ const sidebars = {
        'concepts/refractions',
          'concepts/lenses',
         'concepts/optics',
+        'concepts/state',
     ],
     },
      {
@@ -46,11 +47,11 @@ const sidebars = {
        'api/useEffect',
     ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Tutorials',
-    //   items: [
-    //     'tutorials/counter-app',
+    {
+    type: 'category',
+      label: 'Tutorials',
+      items: [
+        'tutorials/counter-app',
     //     'tutorials/global-theme',
     //   ],
     // },
