@@ -90,7 +90,7 @@ const config = {
       algolia: {
         appId: 'QAKQC6L05F',
         apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
-        indexName: 'documentation_website', // must match your Algolia dashboard
+        indexName: 'Documentation Website', // must match your Algolia dashboard
          // Optional: see the official docs for more options
         contextualSearch: true,
       },
