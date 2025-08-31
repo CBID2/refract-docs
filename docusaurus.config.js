@@ -56,6 +56,10 @@ const config = {
       }),
     ],
   ],
+
+  // This is the important part for Algolia!
+  themes: ['@docusaurus/theme-search-algolia'],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -87,6 +91,8 @@ const config = {
         appId: 'QAKQC6L05F',
         apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
         indexName: 'documentation_website', // must match your Algolia dashboard
+         // Optional: see the official docs for more options
+        contextualSearch: true,
       },
 
       footer: {
