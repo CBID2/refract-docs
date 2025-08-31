@@ -7,7 +7,7 @@ id: quickstart
 
 This guide will walk you through setting up your first Refract project and creating a simple "Hello, World!" application.
 
-:::note
+:::note prerequisites
 
 Before you get started, make sure you have the latest version of [Node and npm](https://nodejs.org/en)
 
