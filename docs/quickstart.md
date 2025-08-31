@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-id: getting-started
+id: quickstart
 ---
 
-# Getting Started
+# Quickstart
 
 This guide will walk you through setting up your first Refract project and creating a simple "Hello, World!" application.
 

@@ -19,11 +19,11 @@ const sidebars = {
       label: 'Getting Started',
       link: {
         type: 'doc',
-        id: 'introduction',
+        id: 'Introduction',
       },
       items: [
-        'introduction',
-        'getting-started',
+        'Introduction',
+        'quickstart',
       ],
     },
     // The following entries are commented out because the files do not yet exist.

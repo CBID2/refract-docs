@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: introduction
+id: Introduction
 ---
 :::note This is a fictional project created for the Product Documentation course organized by [the Technical Writers Mentorship Programme](https://technicalwritingmp.com/).
 :::
