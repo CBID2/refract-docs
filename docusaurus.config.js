@@ -67,6 +67,16 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/refract-logo.png',
         },
+        themes: ['@docusaurus/theme-search-algolia'],
+        algolia: {
+      // The application ID provided by Algolia
+      appId: ' QAKQC6L05F',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'f140345eff360bfd9a7ed22a50b0dbf5',
+
+      indexName: 'Documentation Website',
+        },
         items: [
   {
     type: 'docSidebar',
