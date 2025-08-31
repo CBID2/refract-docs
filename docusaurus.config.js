@@ -57,9 +57,6 @@ const config = {
     ],
   ],
 
-  // This is the important part for Algolia!
-  themes: ['@docusaurus/theme-search-algolia'],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
