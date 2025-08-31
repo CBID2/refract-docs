@@ -1,41 +1,23 @@
-# Website
+# Project Description
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This project is part of an assignment for the Product Documentation bootcamp organized by [the Technical Writers Mentorship Programme](https://technicalwritingmp.com/).
 
-## Installation
+## Assignment Instructions
 
-```bash
-yarn
-```
+Build documentation for a fictional product called [Refract](https://github.com/Technical-writing-mentorship-program/Refract/tree/main). 
 
-## Local Development
+## Tools
 
-```bash
-yarn start
-```
+- Github
+- Git
+- Visual Studio Code
+- Markdown
+- Docusaurus
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Live site
 
-## Build
+View the live site here
 
-```bash
-yarn build
-```
+## Credits
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Program mentors: [Wisdom Nwokocha](https://www.linkedin.com/in/joklinztech/?originalSubdomain=uk) and [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna)
