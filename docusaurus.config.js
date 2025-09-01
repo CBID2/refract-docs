@@ -68,19 +68,19 @@ const config = {
           src: 'img/refract-logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'examples', // Links to the Examples page
-            position: 'left',
-            label: 'Examples',
-          },
+          // New "Examples" link
+         // { 
+         //   to: '/examples', 
+          //  label: 'Examples', 
+        //    position: 'left' 
+         // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs', // ← simpler label than "Introduction"
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          //{ to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/CBID2/refract-docs', // ← update to your repo
             label: 'GitHub',

@@ -112,5 +112,5 @@ function PrivacyBanner() {
 export default PrivacyBanner;
 ```
 
-Want to give these examples a try?, check out the [Getting Started](/docs/getting-started) guide to set up Refract.
+Want to give these examples a try, check out the [Quickstart guide](/docs/quickstart) to learn how to set up Refract.
 Stay tuned for more examples as the documentation evolves!
