@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Refract',
   tagline: 'A fictional JavaScript UI framework created to sharpen your technical documentation skills.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/refract-logo.png',
 
   future: {
     v4: true,
@@ -68,6 +68,13 @@ const config = {
           src: 'img/refract-logo.png',
         },
         items: [
+          {
+            type: 'doc',
+            docId: 'examples', // Links to the Examples page
+            position: 'left',
+            label: 'Examples',
+          },
+          { to: '/docs', label: 'Docs', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

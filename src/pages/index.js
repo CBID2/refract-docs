@@ -1,23 +1,41 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import styles from './index.module.css';
+import Logo from '@site/static/img/refract-logo.png'; // Adjust path if needed
 
 export default function Home() {
   return (
     <Layout
       title="Refract"
-      description="Stream your ideas into UI">
-      <main style={{padding: '4rem 2rem', textAlign: 'center'}}>
-        <h1 style={{fontSize: '3rem', marginBottom: '1rem'}}>Refract</h1>
-        <p style={{fontSize: '1.25rem', color: '#555'}}>
-         An elegant, responsive, and powerful UI framework for building modern web applications.
-        </p>
-
-        <div style={{marginTop: '2rem'}}>
-          <a className="button button--primary button--lg" href="/docs/getting-started">
-            Get Started
-          </a>
+      description="Fresh UIs, Made Simple"
+    >
+      <header className={clsx('hero', styles.heroBanner)}>
+        <div className="container">
+          <div className={styles.heroContent}>
+            <img src={Logo} alt="Refract Logo" className={styles.heroLogo} />
+            <h1 className={styles.heroTitle}>The Progressive UI Framework</h1>
+            <p className={styles.heroSubtitle}>
+              Fresh UIs, Made Simple
+            </p>
+            <div className={styles.buttons}>
+              <a
+                className={clsx('button button--primary button--lg', styles.getStartedButton)}
+                href="/docs/getting-started"
+              >
+                Get Started →
+              </a>
+              <a
+                className={clsx('button button--secondary button--lg', styles.seeExamplesButton)}
+                href="/docs/examples"
+                style={{ marginLeft: '1rem' }}
+              >
+                See Examples
+              </a>
+            </div>
+          </div>
         </div>
-      </main>
+      </header>
     </Layout>
   );
 }
