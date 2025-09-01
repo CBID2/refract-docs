@@ -13,7 +13,7 @@ export default function Home() {
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <div className={styles.heroContent}>
-            <img src={Logo} alt="Refract Logo" className={styles.heroLogo} />
+            <img src={Logo} alt="Refract Logo - Progressive UI Framework" className={styles.heroLogo} />
             <h1 className={styles.heroTitle}>The Progressive UI Framework</h1>
             <p className={styles.heroSubtitle}>
               Fresh UIs, Made Simple
@@ -22,15 +22,19 @@ export default function Home() {
               <a
                 className={clsx('button button--primary button--lg', styles.getStartedButton)}
                 href="/docs/getting-started"
+                role="button"
+                aria-label="Get Started with Refract documentation"
               >
                 Get Started →
               </a>
               <a
                 className={clsx('button button--secondary button--lg', styles.seeExamplesButton)}
                 href="/docs/examples"
+                role="button"
+                aria-label="See Examples of Refract usage"
                 style={{ marginLeft: '1rem' }}
               >
-                See Examples
+                See Examples →
               </a>
             </div>
           </div>
