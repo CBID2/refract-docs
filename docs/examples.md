@@ -1,9 +1,8 @@
 ---
 id: examples
-title: Examples
 ---
 
-# Refract Examples
+# Use Cases
 
 Welcome to the Examples section! Here, you can explore different ways to use Refract.
 

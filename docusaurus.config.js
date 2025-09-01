@@ -74,7 +74,6 @@ const config = {
             position: 'left',
             label: 'Examples',
           },
-          { to: '/docs', label: 'Docs', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
