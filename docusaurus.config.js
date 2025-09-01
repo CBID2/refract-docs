@@ -75,9 +75,12 @@ const config = {
         //    position: 'left' 
          // },
          {
-          href: '#', // Placeholder, handled by ForkButton
           position: 'right',
-          render: () => <ForkButton />, // Render the custom ForkButton
+          render: () => <ForkButton />, // Should now work with Button in place
+          // Fallback if render fails:
+          // href: 'https://github.com/CBID2/refract-docs',
+          // className: 'fork-button-static',
+          // 'aria-label': 'Fork Refract on GitHub - Technical Mentorship Programme Project',
         },
           {
             type: 'docSidebar',
