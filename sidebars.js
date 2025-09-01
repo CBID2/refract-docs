@@ -26,6 +26,14 @@ const sidebars = {
         'quickstart',
       ],
     },
+    {
+  type: 'category',
+  label: 'Examples',
+  items: [
+    'examples', // Refers to docs/examples/examples.md with id: examples
+    // Add more items like 'examples/advanced' if you create additional files
+  ],
+},
     // The following entries are commented out because the files do not yet exist.
     // Uncomment these as you create the corresponding markdown files.
     {
