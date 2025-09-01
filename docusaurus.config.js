@@ -74,6 +74,11 @@ const config = {
           //  label: 'Examples', 
         //    position: 'left' 
          // },
+         {
+          href: '#', // Placeholder, handled by ForkButton
+          position: 'right',
+          render: () => <ForkButton />, // Render the custom ForkButton
+        },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

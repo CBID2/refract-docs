@@ -31,3 +31,44 @@
 .alert.alert--note {
   text-transform: none;
 }
+/* Style the ForkButton */
+.fork-button {
+  padding: 0.4rem 0.8rem; /* Smaller padding for navbar */
+  font-size: 0.9rem; /* Adjust size to fit navbar */
+  display: flex;
+  align-items: center;
+}
+
+.fork-button:hover {
+  background-color: var(--ifm-color-primary-dark); /* Darker on hover */
+}
+
+[data-theme='dark'] .fork-button:hover {
+  background-color: var(--ifm-color-primary-darker); /* Darker in dark mode */
+}
+
+/* Ensure the symbol is visible and sized appropriately */
+.fork-button::before {
+  content: '⧸'; /* Placeholder until symbol file is integrated */
+  margin-right: 0.3rem;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+.header-github-link {
+  display: flex;
+  align-items: center;
+  color: var(--ifm-color-primary);
+  transition: color 0.3s ease;
+}
+
+.header-github-link:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+[data-theme='dark'] .header-github-link {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .header-github-link:hover {
+  color: var(--ifm-color-primary-darker);
+}
