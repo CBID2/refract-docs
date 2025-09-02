@@ -21,7 +21,7 @@ export default function Home() {
             <div className={styles.buttons}>
               <a
                 className={clsx('button button--primary button--lg', styles.getStartedButton)}
-                href="/docs/getting-started"
+                href="/docs/introduction"
                 role="button"
                 aria-label="Get Started with Refract documentation"
               >
