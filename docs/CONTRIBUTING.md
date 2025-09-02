@@ -5,29 +5,25 @@ title: Contributing
 
 # Contributing
 
-Thank you for your interest in contributing! We welcome all contributions, whether you’re fixing docs, adding examples, or suggesting improvements. You don’t need to be an expert; clear ideas and helpful feedback are just as valuable.
-Let’s make Refract better together!
+Thank you for your interest in contributing! We welcome all contributions, whether you’re a avid user fixing docs, adding examples, or suggesting improvements. Let’s make Refract better together!
 
 ## How to Contribute
 
-Anyone can contribute to Refract—beginners and experienced developers alike.
-All details on how to contribute, including setup and workflow, are in our README.md.
-
-## Reporting Bugs or Ideas
+### Reporting Bugs or Ideas
 
 Found a bug or have a feature idea? Open an issue on GitHub Issues with:
 
-A clear description.
-Steps to reproduce (if a bug).
-Example use cases (if a feature).
+- A clear description.
+- Steps to reproduce (if a bug).
+- Example use cases (if a feature).
 
-More details are in the README.md.
-Code of Conduct
-We’re committed to a welcoming space for all, no matter your background or experience.
-We expect everyone to:
+### Updating Docs
 
-Be respectful and kind.
-Value diverse perspectives.
-Communicate with empathy.
+Found outdated information in our tutorials? Want to present your creation in the Examples section? Raise an issue in our repository with:
 
-Read the full Code of Conduct for details.
+- A clear description
+- Specific content you want to update
+
+## Code of Conduct
+
+We’re committed to a welcoming space for all, no matter your background or experience. Check out our [Code of Conduct](/CODE_OF_CONDUCT.md) to learn more.
