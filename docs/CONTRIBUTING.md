@@ -26,4 +26,4 @@ Found outdated information in our tutorials? Want to present your creation in th
 
 ## Code of Conduct
 
-We’re committed to a welcoming space for all, no matter your background or experience. Check out our [Code of Conduct](/CODE_OF_CONDUCT.md) to learn more.
+We’re committed to a welcoming space for all, no matter your background or experience. Read the full [Code of Conduct](https://github.com/CBID2/refract-docs/blob/main/CODE_OF_CONDUCT.md) to learn more.
