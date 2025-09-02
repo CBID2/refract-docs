@@ -11,7 +11,7 @@ Thank you for your interest in contributing! We welcome all contributions, wheth
 
 ### Reporting Bugs or Ideas
 
-Found a bug or have a feature idea? Open an issue on GitHub Issues with:
+Found a bug or have a feature idea? Raise an issue on our repository with:
 
 - A clear description.
 - Steps to reproduce (if a bug).
