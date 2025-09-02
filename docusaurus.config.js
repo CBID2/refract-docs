@@ -33,10 +33,14 @@ const config = {
         docs: {
           // 👇 This points to your sidebars.js file
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true, // Must be explicitly set
+          showLastUpdateAuthor: true, // Must be explicitly set
+          // Include root contributing.md if applicable
+          include: ['**/*.{md,mdx}', '../contributing.md'],
 
           // Optional: link to your repo for "Edit this page"
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/CBID2/refract-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -45,7 +49,7 @@ const config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/CBID2/refract-docs/edit/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
