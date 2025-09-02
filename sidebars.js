@@ -12,7 +12,6 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
     {
       type: 'category',
@@ -27,43 +26,46 @@ const sidebars = {
       ],
     },
     {
-  type: 'category',
-  label: 'Examples',
-  items: [
-    'examples', // Refers to docs/examples/examples.md with id: examples
-    // Add more items like 'examples/advanced' if you create additional files
-  ],
-},
-    // The following entries are commented out because the files do not yet exist.
-    // Uncomment these as you create the corresponding markdown files.
+      type: 'category',
+      label: 'Examples',
+      items: [
+        'examples',
+      ],
+    },
     {
       type: 'category',
-       label: 'Concepts',
-     items: [
-       'concepts/refractions',
-         'concepts/lenses',
+      label: 'Concepts',
+      items: [
+        'concepts/refractions',
+        'concepts/lenses',
         'concepts/optics',
         'concepts/state',
-    ],
-    },
-     {
-     type: 'category',
-       label: 'API',
-       items: [
-       'api/createComponent',
-      'api/useRefraction',
-       'api/useEffect',
-    ],
+      ],
     },
     {
-    type: 'category',
+      type: 'category',
+      label: 'API',
+      items: [
+        'api/createComponent',
+        'api/useRefraction',
+        'api/useEffect',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Tutorials',
       items: [
         'tutorials/counter-app',
         'tutorials/global-theme',
       ],
-     },
-    // 'contributing',
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      items: [
+        'contributing',
+      ],
+    },
   ],
 };
 

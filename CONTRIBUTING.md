@@ -1,4 +1,9 @@
-# Contributing Guide
+---
+id: contributing
+title: Contributing
+---
+
+# Contributing
 
 Thank you for your interest in contributing! We welcome all contributions, whether you’re fixing docs, adding examples, or suggesting improvements. You don’t need to be an expert; clear ideas and helpful feedback are just as valuable.
 Let’s make Refract better together!
