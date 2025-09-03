@@ -120,28 +120,33 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Docs Home',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/docs/Introduction',
+              },
+              {
+                label: 'Quickstart',
+                to: '/docs/quickstart'
               },
             ],
           },
           {
             title: 'Community',
             items: [
-              { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },
-              { label: 'Discord', href: 'https://discordapp.com/invite/docusaurus' },
-              { label: 'X', href: 'https://x.com/docusaurus' },
+              //{ label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },//
+              { label: 'Discord', href: 'https://discord.gg/UC4QEsE8' },
+              { label: 'X', href: 'https://twitter.com/TechnicalWriti6' },
+              { label: 'Linkedin', href: 'https://www.linkedin.com/company/technical-writing-mentorship-program/posts/?feedView=all'},
             ],
           },
           {
             title: 'More',
             items: [
-              { label: 'Blog', to: '/blog' },
-              { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
+            //  { label: 'Blog', to: '/blog' },//
+              { label: 'GitHub', href: 'https://github.com/Technical-writing-mentorship-program' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Refract. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
