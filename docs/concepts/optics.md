@@ -9,7 +9,7 @@ id: optics
 
 ## Benefits of Optics
 
-- **Efficiency:** Optics make manipulating nested state (like user profiles) feel simple—no need to rewrite the whole state object.
+- **Efficiency:** Optics make manipulating nested state (like user profiles) simple, meaning that there's no need to rewrite the whole state object.
 - **Modularity:** Optics help you modularize access to deeply nested data, making code cleaner and more scalable.
 
 ---
@@ -36,4 +36,4 @@ In the above example, the `ageLens` function is an optic that returns the age of
 
 ## How it Connects to Refract
 
-Optics form the backbone of Refract’s reactive state management. Build and combine them to shape how your UI responds—smoothly composable, and perfectly maintainable.
+Optics form the backbone of Refract’s reactive state management. Build and combine them to shape how your UI responds, making it smoothly composable and perfectly maintainable.
