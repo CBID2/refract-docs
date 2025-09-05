@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://refract-docs-green.vercel.app',
   baseUrl: '/',
 
   organizationName: 'facebook',
