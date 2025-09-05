@@ -9,7 +9,7 @@ This guide will walk you through setting up your first Refract project and creat
 
 :::note prerequisites
 
-Before you get started, make sure you have the latest version of [Node and npm](https://nodejs.org/en)
+Before you get started, make sure you have Visual Studio Code, the latest version of [Node and npm](https://nodejs.org/en), and some basic knowledge of JavaScript.
 
 :::
 
