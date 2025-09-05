@@ -16,7 +16,7 @@ Build documentation for a fictional product called [Refract](https://github.com/
 
 ## Live site
 
-View the live site [here](https://refract-docs-8n0kjjb8u-cbid2s-projects.vercel.app/)
+View the live site [here](https://refract-docs-green.vercel.app/)
 
 ## Credits
 
